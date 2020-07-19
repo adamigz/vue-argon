@@ -65,7 +65,7 @@ export default {
         return {
             users: [],
             loading: true,
-            loaded: false,
+            loaded: false,  
             errorMsgs: [],
             showError: false,
             pagination: 1
