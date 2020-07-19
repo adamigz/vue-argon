@@ -47,7 +47,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 align-self-center">
-                            <b-button size="lg" class="m-auto d-flex" variant="primary" outline><router-link :to="{name: user, params: {id: user.id} }">Show profile</router-link></b-button>    
+                            <b-button size="lg" class="m-auto d-flex" variant="primary"><router-link class="text-white d-flex justify-content-center" :to="{name: 'user', params: {id: user.id} }">Show profile</router-link></b-button>    
                         </div>
                         </div>
                     </div>

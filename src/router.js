@@ -62,7 +62,7 @@ export default new Router({
       }
     },
     {
-      path: "/user/{id}",
+      path: "/user/:id",
       name: "user",
       components: {
         header: AppHeader,
